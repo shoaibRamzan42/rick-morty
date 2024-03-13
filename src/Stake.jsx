@@ -18,8 +18,8 @@ const Stake = () => {
           </h1>
           <h1 className="text-[#242269] w-[90%] text-[25px]">
             {" "}
-            Buy and stake $SPONGE using the button above and start earning
-            rewards today. Spongers will gain tokens by staking $SPONGE before
+            Buy and stake $Rick-morty using the button above and start earning
+            rewards today. Rick-mortyrs will gain tokens by staking $Rick-morty before
             the claim date.
           </h1>
         </div >

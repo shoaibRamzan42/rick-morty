@@ -210,8 +210,8 @@ const Banner = () => {
           Rick-morty<span>V1</span>
         </h1>
         <div className="bg-text text-[18px] text-[#242269] h-[230px] bg-contain bg-no-repeat flex flex-col items-center justify-center p-12  ">
-          <p className="mb-1">Missed $SPONGE's 100x PUMP in 2023?</p>
-          <p className="mb-1">Now's your chance to buy SPONGE V2!</p>
+          <p className="mb-1">Missed $Rick-morty's 100x PUMP in 2023?</p>
+          <p className="mb-1">Now's your chance to buy Rick-morty V2!</p>
           <p className="mb-1">Launching on Bigger and Better Exchanges!</p>
         </div>
         <div className="flex items-center gap-5">
@@ -241,13 +241,13 @@ const Banner = () => {
                 
                 
                   <h2 className="text-[24px] text-center text-[#74E291] [w-80%]  font-semibold">
-                  Last chance to buy SPONGE V2 before exchange listings
+                  Last chance to buy Rick-morty V2 before exchange listings
                   </h2>
 
                 
                 
                   <h2 className="text-[24px] text-center [w-80%] text-[#74E291] font-semibold">
-                  Last chance to buy SPONGE V2 before exchange listings
+                  Last chance to buy Rick-morty V2 before exchange listings
                   </h2>
 
                 
@@ -285,7 +285,7 @@ const Banner = () => {
               </div>
 
               <h2 className="text-center font-Slackey text-[16px] font-bold text-[#74E291] mt-[6px]">
-                YOUR PURCHASED GROW <span className="font-normal">= 0</span>
+                YOUR PURCHASED RM <span className="font-normal">= 0</span>
               </h2>
 
               {/* <h2 className='text-center text-[16px] font-bold text-[#BDBDBD] mt-[6px]'>

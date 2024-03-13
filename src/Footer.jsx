@@ -8,11 +8,11 @@ const Footer = () => {
         <h1 className="text-white font-Slackey text-[45px]"> DISCLAIMER</h1>
         <h1 className="text-white font-custom w-[90%] text-[20px]">
           {" "}
-          $Sponge V2 has no association with Nickelodeon or their creation
-          SpongeBob SquarePants. This token is simply paying homage to a meme we
-          all love and recognise. $SPONGEV2 is a meme coin with no intrinsic
+          $Rick-morty V2 has no association with Nickelodeon or their creation
+          Rick-mortyBob SquarePants. This token is simply paying homage to a meme we
+          all love and recognise. $Rick-mortyV2 is a meme coin with no intrinsic
           value or expectation of financial return. There is no formal team. The
-          Sponge ecosystem may offer P2E aspects, however the coin is intended
+          Rick-morty ecosystem may offer P2E aspects, however the coin is intended
           for entertainment purposes only.
         </h1>
       </div>
