@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slackey:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn-bg{
+    background-image: url(/src/assets/btn-bg3.png);
+}
+
+.bg-imgs{
+    background-image: url(/src/assets/1334910.jpg);
+}
+.bg-img1{
+    background-image: url(/src/assets/Logo.png);
+}
+
+.bg-text{
+    background-image: url(/src/assets/frame2.png);
+}
+
+.gb-stak{
+    background-image: url(/src/assets/about-msg.svg);
+}
+
+.bg-card{
+    background-image: url(/src/assets/roadmap-bg.png);
+}
+
+.bg-footer{
+    background-image: url(/src/assets/1334911.jpg);
+}
