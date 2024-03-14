@@ -4,9 +4,9 @@ import cLogo from "../src/assets/Logo.png"
 const Footer = () => {
   return (<>
     <div className="lg:px-16 md:px-12 px-3 py-16">
-      <div className="flex flex-col gap-3  items-center px-4 py-3 bg-[#207938] rounded-xl border-[5px] border-[#74E291] justify-center">
-        <h1 className="text-white font-Slackey text-[45px]"> DISCLAIMER</h1>
-        <h1 className="text-white font-custom w-[90%] text-[20px]">
+      <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-[#207938] rounded-xl border-[5px] border-[#74E291] justify-center">
+        <h1 className="text-white font-Slackey bg-shade bg-no-repeat bg-cover text-[45px]"> DISCLAIMER</h1>
+        <h1 className="text-white bg-shade bg-no-repeat bg-cover text-center font-custom text-[16px] leading-[22px] lg:leading-[30px] w-[90%] lg:text-[20px]">
           {" "}
           $Rick-morty V2 has no association with Nickelodeon or their creation
           Rick-mortyBob SquarePants. This token is simply paying homage to a meme we
@@ -41,7 +41,7 @@ const Footer = () => {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-[#74e291] font-semibold mb-1">Services</h6>
+                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Services</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Web Developlent</Link>
@@ -66,7 +66,7 @@ const Footer = () => {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#74e291] font-semibold mb-1">Important links</h6>
+                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Important links</h6>
                 <ul>
                   <li className="mb-1">
                     <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">About us</Link>
@@ -99,7 +99,7 @@ const Footer = () => {
            
 
             {/* Copyrights note */}
-            <div className="text-white font-semibold text-sm mr-4"> Copyrights &copy;2024 Reserved.</div>
+            <div className="text-[#74e291] font-Slackey font-semibold text-sm mr-4"> Copyrights &copy;2024 Reserved.</div>
 
           </div>
 

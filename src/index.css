@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 
+.bg-head{
+    background-image: url(/src/assets/bg-head.png);
+}
+
 .btn-bg{
     background-image: url(/src/assets/btn-bg3.png);
 }
@@ -30,4 +34,13 @@
 
 .bg-footer{
     background-image: url(/src/assets/1334911.jpg);
+}
+
+.bg-img2{
+    background-image: url(/src/assets/bg.png);
+    
+}
+
+.bg-shade{
+    background-image: url(/src/assets/shade1.png);
 }

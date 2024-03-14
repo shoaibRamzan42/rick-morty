@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import cLogo from "../src/assets/Logo.png"
 
@@ -106,4 +107,3 @@ const NavBar = () => {
 };
 
 export default NavBar;
-

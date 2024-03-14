@@ -7,9 +7,9 @@ import road3 from '../src/assets/roadmap-bg3.png'
 
 const RoadMap= () => {
   return (
-    <div className='flex font-Slackey md:px-12 px-3 py-16 gap-8 flex-col justify-center items-center'>
-        <h1 className="text-[#74E291] font-Bold text-[45px] ">RoadMap V2</h1>
-        <p className='text-[#74e291] text-[36px] text-center font-medium font-custom'>The ultimate goal of $Rick-morty is to soak up liquidity from the competition!  We’re absorbing all the damp.</p>
+    <div className='flex font-Slackey  md:px-12 px-3 py-16 gap-8 flex-col justify-center items-center'>
+        <h1 className="text-[#74E291] bg-shade bg-no-repeat bg-cover  font-Bold text-[45px] ">RoadMap V2</h1>
+        <p className='text-[#74e291] bg-shade bg-no-repeat bg-cover text-[36px] text-center font-medium font-custom'>The ultimate goal of $Rick-morty is to soak up liquidity from the competition!  We’re absorbing all the damp.</p>
         <div className="  flex flex-wrap justify-center items-center gap-5">
           
 

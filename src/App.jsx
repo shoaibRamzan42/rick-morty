@@ -7,6 +7,7 @@ import Tokenomics from "./Tokenomics"
 import Road from "./Road-map"
 import RoadMap from "./Road-map"
 import Footer from "./Footer"
+import Grow from "./Grow"
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Navbar />
         <Banner />
         <Stake/>
+        <Grow/>
         <Achive />
         <Tokenomics/>
         <RoadMap/>
