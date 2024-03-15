@@ -3,15 +3,10 @@ import { useState } from 'react'
 import logo from '../src/assets/Logo.png'
 import { motion } from 'framer-motion';
 
-import Web3 from 'web3';
-import { useWeb3Modal } from '@web3modal/wagmi/react'
-import { useAccount, useDisconnect } from 'wagmi'
 
 const MobNav = ({ setisOpen }) => {
-
-    const { open } = useWeb3Modal()
-    const { address, isConnecting } = useAccount()
-    const { disconnect } = useDisconnect()
+ const address = "" ;
+   
     const[wallet , setWallet] = useState("Connect Wallet");
     function extractFirstAndLastFive(address) {
         const firstFive = address.slice(0, 5);
@@ -87,9 +82,7 @@ const MobNav = ({ setisOpen }) => {
                             >
                                 <button className='text-white btn-bg text-[14px] h-[51px] w-full font-medium rounded-[10px]'
 
-                                    onClick={() => {
-                                        open()
-                                    }}
+                                  
 
                                 >
                                     {address ? extractFirstAndLastFive(address) : 'Connect Wallet'}

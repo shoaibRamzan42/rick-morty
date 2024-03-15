@@ -35,10 +35,7 @@
     "web-vitals": "^2.1.4",
     "bootstrap": "^5.3.2",
     "styled-components": "^5.3.10",
-    "web3": "^1.8.2",
-    "@web3modal/wagmi": "^3.1.0",
     "viem": "^1.16.6",
-    "wagmi": "^1.4.5",
     "@heroicons/react": "^2.0.17"
 
   },
