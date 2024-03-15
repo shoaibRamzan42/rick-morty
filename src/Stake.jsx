@@ -1,16 +1,28 @@
 import React from "react";
 import stake from "../src/assets/stake.png";
+import {motion} from "framer-motion"
 
 const Stake = () => {
   return (
     <div className="py-16 lg:px-16 font-Slackey md:px-12 px-3">
-      <div className="flex flex-col items-center justify-center">
-        <div className="flex bg-shade justify-center items-center">
+      <div className="flex  flex-col items-center justify-center">
+      
+        <div className="flex  justify-center items-center">
+        
+        
           <img src={stake} className="md:max-w-[50%] max-w-full" alt="pic" />
           <h1 className="text-[#207938] hidden justify-center w-[30%] md:flex items-center gb-stak bg-cover h-[140px] lg:h-[195px] xl:h-[255px] font-semibold text-[11px] lg:text-[16px] xl:text-[18px]">
             Did U miss 100X Pump??
           </h1>
+         
         </div>
+        <motion.div
+            initial={{ x: "100%", opacity: 0 }}
+            // viewport={{ once :true,}}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            whileInView={{ x: 0, opacity: 1 }}
+            className=""
+          >
         <div className="flex flex-col gap-3 shadow-5xl  items-center px-4 py-2 border-[#207938] rounded-xl border-[1px] bg-transparent justify-center">
           <h1 className="text-[#74e291] text-center text-[22px] md:text-[36px] leading-[35px] md:leading-[55px] lg:text-[45px]">
             {" "}
@@ -23,10 +35,19 @@ const Stake = () => {
             before the claim date.
           </h1>
         </div>
+        </motion.div>
         <div className="pt-16 gap-8 flex flex-col item center justify-center">
           <h1 className=" text-center bg-shade bg-no-repeat bg-cover text-[32px] md:text-[35px] text-[#74E291] font-bold  lg:text-[45px]">
             V1 Listed and Featured in...
           </h1>
+          <motion.div
+            whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            initial="hidden"
+            style={{ opacity: 0 }}
+            // viewport={{ once: true }}
+            className=""
+          >
           <div className="items-center gap-8 flex flex-wrap justify-center">
             <img
               className="bg-white  h-20 lg:h-24 p-3 lg:p-4 rounded-full  border-[5px] border-[#207938] "
@@ -52,6 +73,7 @@ const Stake = () => {
               alt="pic"
             />
           </div>
+          </motion.div>
         </div>
       </div>
     </div>

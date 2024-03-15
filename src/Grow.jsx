@@ -6,17 +6,18 @@ const Grow = () => {
   const smallerthen768 = useMediaQuery("(max-width:768px)");
 
   return (
-    <div className="bg-transparent mt-[-3px]">
+    <div className="bg-transparent pt-14 mt-[-3px]">
+    <h1 className="text-[#74E291] font-Slackey text-center bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">What is RMC?</h1>
       <div className="max-w-[1160px] px-[16px] md:px-[20px] mx-auto py-[40px] sm:py-[80px] lg:py-[120px] flex flex-col md:flex-row gap-[32px] sm:gap-[60px] lg:gap-[120px] items-center">
         <div className="relative flex-shrink-0">
           <div className="relative z-10">
-            <motion.div
-              initial={{ x: "-100%", opacity: 0 }}
-              // viewport={{ once :true,}}
-              transition={{ duration: 1.5, ease: "easeInOut" }}
-              whileInView={{ x: 0, opacity: 1 }}
-              className=""
-            >
+          <motion.div
+            initial={{ x: "-100%", opacity: 0 }}
+            // viewport={{ once :true,}}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            whileInView={{ x: 0, opacity: 1 }}
+            className=""
+          >
               <img
                 src={img}
                 alt=""
@@ -90,16 +91,23 @@ const Grow = () => {
           </div>
         </div>
 
-        <div className="border shadow-5xl px-4 py-5 rounded-xl border-[#207938]">
+        <motion.div
+            initial={{ x: "100%", opacity: 0 }}
+            // viewport={{ once :true,}}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            whileInView={{ x: 0, opacity: 1 }}
+            className=""
+          >
+        <div className="border shadow-5xl px-4 py-5 rounded-xl br-green">
           <h6
-            className={`text-[#74e291] font-Slackey mb-2 bg-shade bg-no-repeat bg-cover text-[14px] sm:text-[20px] font-semibold ${
+            className={`text-[#74e291] font-Slackey mb-2 bg-shade bg-no-repeat bg-cover text-[14px] sm:text-[28px] font-semibold ${
               smallerthen768 && "text-center "
             }`}
           >
             Real Passive Income
           </h6>
           <h1
-            className={`text-[#ffffff] font-custom text-[24px] sm:text-[42px] font-semibold mt-[-4px] ${
+            className={`text-[#ffffff] font-custom md:text-[24px] text-[34px]  font-semibold mt-[-4px] ${
               smallerthen768 && "text-center "
             }`}
           >
@@ -119,6 +127,7 @@ const Grow = () => {
             coins in any one of our pools.
           </p>
         </div>
+        </motion.div>
       </div>
     </div>
   );

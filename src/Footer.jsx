@@ -1,12 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import cLogo from "../src/assets/Logo.png"
+import {motion} from "framer-motion"
 const Footer = () => {
   return (<>
     <div className="lg:px-16 md:px-12 px-3 py-16">
+    <motion.div
+            whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            initial="hidden"
+            style={{ opacity: 0 }}
+            // viewport={{ once: true }}
+            className=""
+          >
       <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-transparent shadow-5xl rounded-xl border-[2px] border-[#207938] justify-center">
-        <h1 className="text-[#74e291] font-Slackey bg-shade bg-no-repeat bg-cover text-[45px]"> DISCLAIMER</h1>
-        <h1 className="text-white bg-shade bg-no-repeat bg-cover text-center font-custom text-[16px] leading-[22px] lg:leading-[30px] w-[90%] lg:text-[20px]">
+        <h1 className="text-[#74e291] font-Slackey bg-shade bg-no-repeat bg-cover md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
+        <h1 className="text-white  text-center font-custom text-[13px] md:text-[16px] leading-[22px] lg:leading-[30px] w-full md:w-[90%] lg:text-[20px]">
           {" "}
           $Rick-morty V2 has no association with Nickelodeon or their creation
           Rick-mortyBob SquarePants. This token is simply paying homage to a meme we
@@ -16,10 +25,11 @@ const Footer = () => {
           for entertainment purposes only.
         </h1>
       </div>
+      </motion.div>
     </div>
 
     <footer>
-      <div className="py-12 font-custom bg-footer bg-auto bg-no-repeat md:py-12">
+      <div id="about" className="py-12 font-custom bg-footer bg-auto bg-no-repeat md:py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}

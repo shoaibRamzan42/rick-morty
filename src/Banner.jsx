@@ -1,7 +1,7 @@
 import { React } from "react";
 
 import { useEffect, useState } from "react";
-
+import { motion } from "framer-motion";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -204,18 +204,37 @@ const Banner = () => {
   // };
 
   return (
-    <div className="mt-12  h bg-img1 bg-contain h-[848px] bg-no-repeat  py-16 px-3 lg:px-16 md:px-12 ">
-        <div className="flex flex-col relative xl:top-[30rem] top-80 left-24 xl:left-48 md:flex-row  items-center md:gap-12 gap-4">
+    <div className="mt-12    bg-img1 bg-contain h-[405px] md:h-[500px] lg:h-[680px] xl:h-[848px] bg-no-repeat  py-16 px-3 lg:px-16 md:px-12 ">
+        <div className="flex flex-col  relative xl:top-[60%] lg:top-[55%] md:top-[60%] top-[25%]  left-[9%] xl:left-[13%] md:flex-row items-start  md:items-center md:gap-12 gap-4">
+        <motion.div
+            whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
+            transition={{ duration: 1.5, ease: "easeInOut" }}
+            initial="hidden"
+            style={{ opacity: 0 }}
+            // viewport={{ once: true }}
+            className=""
+          >
           <button
-            className={`block bg-cover text-[#242269] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  py-10 md:py-6 px-4 rounded-[5px] text-[12px] md:text-[28px] leading-4 `}
+            className={`block bg-cover text-[#89CFF0] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 lg:py-8  md:py-5 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
           >
             How to buy 
           </button>
+          </motion.div>
+
+          <motion.div
+            whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
+            transition={{ duration: 1.2, ease: "easeInOut" }}
+            initial="hidden"
+            style={{ opacity: 0 }}
+            // viewport={{ once: true }}
+            className=""
+          >
           <button
-            className={`block text-[#242269] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  py-10 md:py-6 px-4 rounded-[5px] text-[12px] md:text-[28px] leading-4 `}
+            className={`block text-[#89CFF0] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 md:py-5 lg:py-8 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
           >
             Whitepaper
           </button>
+          </motion.div>
         </div>           
     </div>
   );

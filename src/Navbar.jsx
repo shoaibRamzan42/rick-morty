@@ -72,30 +72,33 @@ const Navbar = () => {
                         
                     
                     <div className='grow'>
-                        <div className='hidden font-Slackey text-white md:flex md:gap-3 lg:gap-9 justify-center'>
+                        <div className='hidden scroll-smooth font-Slackey text-[#89CFF0] md:flex md:gap-3 lg:gap-9 justify-center'>
                             {links.map((item, i) => {
                                 let x = item
                                 if (x === 'Staking') {
-                                    x = 'invest'
+                                    x = 'buy'
                                 }
                                 if (x === 'About') {
-                                    x = 'buy'
+                                    x = 'about'
+                                }
+                                if (x === 'RoadMap') {
+                                    x = 'road'
                                 }
                                 return <a key={i}
                                     href={`#${x}`}
-                                    className='text-white capitalize text-[15px] lg:text-[20px] hover:underline underline-offset-8 hover:scale-105 duration-700 cursor-pointer font-medium'>
+                                    className='text-[#89CFF0 ]scroll-smooth capitalize text-[15px] lg:text-[20px] hover:underline underline-offset-8 hover:scale-105 duration-700 cursor-pointer font-medium'>
                                     {item}
                                 </a>
                             })}
                         </div>
                     </div>
                     <div className='hidden md:flex gap-4 relative '>
-                        <button className="rounded font-Slackey text-[#242269] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
+                        <button className="rounded font-Slackey text-[#89CFF0] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
                             <span className="relative">Connect Wallet
             </span>
                         </button>
-                        <button className="rounded font-Slackey text-[#242269] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
+                        <button className="rounded font-Slackey text-[#89CFF0] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
                             <span className="relative">Buy now
             </span>

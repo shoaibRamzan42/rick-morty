@@ -10,7 +10,7 @@
 }
 
 .btn-bg{
-    background-image: url(/src/assets/btn-bg3.png);
+    background-image: url(/src/assets/bg-board1.png);
 }
 
 .bg-imgs{
@@ -43,4 +43,12 @@
 
 .bg-shade{
     background-image: url(/src/assets/shade1.png);
+}
+
+.br-green{
+    border-color:#207938 !important;
+}
+
+.bg-road{
+    background-image: url(/src/assets/road3.jpg);
 }
