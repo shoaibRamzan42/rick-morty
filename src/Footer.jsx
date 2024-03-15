@@ -30,7 +30,7 @@ const Footer = () => {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
-                <h1 className='text-[20px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
+                <h1 className='md:text-[20px] lg:text-[30px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
                 </Link>
               </div>
               <div className="text-white">We are a consortium of adept developers, skilled technical professionals, and visionary strategists devoted to delivering flawless products.</div>

@@ -16,7 +16,7 @@ const Stake = () => {
             {" "}
             BIGGER & BETTER! ABSORBING ALL DAMP
           </h1>
-          <h1 className="text-[#207938] text-center leading-[28px] text-[18px] md:leading-[32px] md:text-[22px] lg:leading-[35px] md:w-[90%] w-[100%] lg:text-[25px]">
+          <h1 className="text-white text-center leading-[28px] text-[18px] md:leading-[32px] md:text-[22px] lg:leading-[35px] md:w-[90%] w-[100%] lg:text-[25px]">
             {" "}
             Buy and stake $Rick-morty using the button above and start earning
             rewards today. Rick-mortyrs will gain tokens by staking $Rick-morty

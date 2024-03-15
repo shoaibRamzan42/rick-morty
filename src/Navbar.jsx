@@ -67,7 +67,7 @@ const Navbar = () => {
             <div className={`fixed top-0 left-0 right-0 z-40 ${scrolled ? "bg-black" : "bg-transparent"}`}>
                 <div className='flex items-center  md:gap-1 lg:gap-4 max-w-screen-xl mx-auto px-[20px] py-4 md:py-3'>
                     
-                    <h1 className= 'text-[20px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
+                    <h1 className= 'md:text-[20px] lg:text-[30px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
 
                         
                     
