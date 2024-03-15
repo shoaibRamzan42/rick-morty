@@ -6,17 +6,17 @@ const Stake = () => {
     <div className="py-16 lg:px-16 font-Slackey md:px-12 px-3">
       <div className="flex flex-col items-center justify-center">
         <div className="flex bg-shade justify-center items-center">
-          <img src={stake} className="max-w-[50%]" alt="pic" />
-          <h1 className="text-[#242269] justify-center w-[30%] flex items-center gb-stak bg-cover h-[140px] lg:h-[195px] xl:h-[255px] font-semibold text-[11px] lg:text-[16px] xl:text-[18px]">
+          <img src={stake} className="md:max-w-[50%] max-w-full" alt="pic" />
+          <h1 className="text-[#207938] hidden justify-center w-[30%] md:flex items-center gb-stak bg-cover h-[140px] lg:h-[195px] xl:h-[255px] font-semibold text-[11px] lg:text-[16px] xl:text-[18px]">
             Did U miss 100X Pump??
           </h1>
         </div>
-        <div className="flex flex-col gap-3  items-center px-4 py-2 border-[#207938] rounded-xl border-[5px] bg-[#74E291] justify-center">
-          <h1 className="text-[#242269] text-center text-[36px] leading-[55px] lg:text-[45px]">
+        <div className="flex flex-col gap-3 shadow-5xl  items-center px-4 py-2 border-[#207938] rounded-xl border-[1px] bg-transparent justify-center">
+          <h1 className="text-[#74e291] text-center text-[22px] md:text-[36px] leading-[35px] md:leading-[55px] lg:text-[45px]">
             {" "}
             BIGGER & BETTER! ABSORBING ALL DAMP
           </h1>
-          <h1 className="text-[#242269] text-center leading-[32px] text-[22px] lg:leading-[35px] w-[90%] lg:text-[25px]">
+          <h1 className="text-[#207938] text-center leading-[28px] text-[18px] md:leading-[32px] md:text-[22px] lg:leading-[35px] md:w-[90%] w-[100%] lg:text-[25px]">
             {" "}
             Buy and stake $Rick-morty using the button above and start earning
             rewards today. Rick-mortyrs will gain tokens by staking $Rick-morty
@@ -24,7 +24,7 @@ const Stake = () => {
           </h1>
         </div>
         <div className="pt-16 gap-8 flex flex-col item center justify-center">
-          <h1 className=" text-center bg-shade bg-no-repeat bg-cover text-[35px] text-[#74E291] font-bold  lg:text-[45px]">
+          <h1 className=" text-center bg-shade bg-no-repeat bg-cover text-[32px] md:text-[35px] text-[#74E291] font-bold  lg:text-[45px]">
             V1 Listed and Featured in...
           </h1>
           <div className="items-center gap-8 flex flex-wrap justify-center">

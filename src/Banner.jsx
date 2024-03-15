@@ -207,18 +207,18 @@ const Banner = () => {
     <div className="mt-24 bg-img1 bg-cover bg-no-repeat  py-16 px-3 lg:px-16 md:px-12 ">
       <div className="flex gap-5 font-Slackey justify-center items-center  flex-col ">
         <h1 className="btn-bg text-[32px]  md:text-[55px] lg:text-[70px] bg-cover bg-no-repeat p-3 font-semibold text-[#242269]">
-          Rick-morty<span>V1</span>
+          Rick-morty
         </h1>
-        <div className="bg-text lg:text-[21px] text-[8px] h-[113px] md:text-[18px] text-[#242269] md:h-[220px] lg:h-[255px] bg-cover bg-no-repeat flex flex-col items-center justify-center p-8  ">
+        <div className="bg-text font-semibold  lg:text-[21px] text-[8px] h-[113px] md:text-[18px] text-[#242269] md:h-[220px] lg:h-[255px] bg-cover bg-no-repeat flex flex-col items-center justify-center p-8  ">
           <p className="mb-1">Missed $Rick-morty's 100x PUMP in 2023?</p>
           <p className="mb-1">Now's your chance to buy Rick-morty V2!</p>
           <p className="mb-1">Launching on Bigger and Better Exchanges!</p>
         </div>
-        <div className="flex items-center gap-5">
+        <div className="flex flex-col md:flex-row  items-center md:gap-12 gap-4">
           <button
             className={`block bg-cover text-[#242269] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  py-3 md:py-6 px-4 rounded-[5px] text-[12px] md:text-[25px] leading-4 `}
           >
-            How to buy & Stake
+            How to buy 
           </button>
           <button
             className={`block text-[#242269] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  py-3 md:py-6 px-4 rounded-[5px] text-[12px] md:text-[25px] leading-4 `}

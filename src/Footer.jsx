@@ -4,8 +4,8 @@ import cLogo from "../src/assets/Logo.png"
 const Footer = () => {
   return (<>
     <div className="lg:px-16 md:px-12 px-3 py-16">
-      <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-[#207938] rounded-xl border-[5px] border-[#74E291] justify-center">
-        <h1 className="text-white font-Slackey bg-shade bg-no-repeat bg-cover text-[45px]"> DISCLAIMER</h1>
+      <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-transparent shadow-5xl rounded-xl border-[2px] border-[#207938] justify-center">
+        <h1 className="text-[#74e291] font-Slackey bg-shade bg-no-repeat bg-cover text-[45px]"> DISCLAIMER</h1>
         <h1 className="text-white bg-shade bg-no-repeat bg-cover text-center font-custom text-[16px] leading-[22px] lg:leading-[30px] w-[90%] lg:text-[20px]">
           {" "}
           $Rick-morty V2 has no association with Nickelodeon or their creation
@@ -44,19 +44,19 @@ const Footer = () => {
                 <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Services</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Web Developlent</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Terms</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Mobile App Development</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Privacy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Blockchain Development</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Cookies</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Software Development</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Legacy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Metaverse/Crypto</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Staking</Link>
                   </li>
                   {/* <li className="mb-1">
                     <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Web3 Development</Link>
@@ -66,19 +66,19 @@ const Footer = () => {
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Important links</h6>
+                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Contact us</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">About us</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Telegram</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Hire</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Twitter</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Services</Link>
+                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">jjsonwilson1999@gmail.com</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">How it Works</Link>
+                    {/* <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">How it Works</Link> */}
                   </li>
                   {/* <li className="mb-1">
                     <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Nostrud exercitation</Link>
