@@ -13,9 +13,9 @@ const Footer = () => {
             // viewport={{ once: true }}
             className=""
           >
-      <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-transparent shadow-5xl rounded-xl border-[2px] border-[#207938] justify-center">
-        <h1 className="text-[#74e291] font-Slackey bg-shade bg-no-repeat bg-cover md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
-        <h1 className="text-white  text-center font-custom text-[13px] md:text-[16px] leading-[22px] lg:leading-[30px] w-full md:w-[90%] lg:text-[20px]">
+      <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-transparent shadow-5xl rounded-xl border-[2px] border-[#00ffff] justify-center">
+        <h1 className="text-[#00ff00] font-Slackey bg-shade bg-no-repeat bg-cover md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
+        <h1 className="text-[#00ffff]  text-center font-custom text-[13px] md:text-[16px] leading-[22px] lg:leading-[30px] w-full md:w-[90%] lg:text-[20px]">
           {" "}
           $Rick-morty V2 has no association with Nickelodeon or their creation
           Rick-mortyBob SquarePants. This token is simply paying homage to a meme we
@@ -40,10 +40,10 @@ const Footer = () => {
               <div className="mb-2">
                 {/* Logo */}
                 <Link href="/" className="inline-block" aria-label="Cruip">
-                <h1 className='md:text-[20px] lg:text-[30px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
+                <h1 className='md:text-[20px] lg:text-[30px] font-Slackey text-[#00ff00]'>Rick-Morty</h1>
                 </Link>
               </div>
-              <div className="text-white">We are a consortium of adept developers, skilled technical professionals, and visionary strategists devoted to delivering flawless products.</div>
+              <div className="text-[#00ffff]">We are a consortium of adept developers, skilled technical professionals, and visionary strategists devoted to delivering flawless products.</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -51,47 +51,47 @@ const Footer = () => {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Services</h6>
+                <h6 className="text-[#00ff00] font-semibold font-Slackey mb-1">Services</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Terms</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Terms</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Privacy</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Privacy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Cookies</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Cookies</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Legacy</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Legacy</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Staking</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Staking</Link>
                   </li>
                   {/* <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Web3 Development</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Web3 Development</Link>
                   </li> */}
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-[#74e291] font-semibold font-Slackey mb-1">Contact us</h6>
+                <h6 className="text-[#00ff00] font-semibold font-Slackey mb-1">Contact us</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Telegram</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Telegram</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Twitter</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">Twitter</Link>
                   </li>
                   <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">jjsonwilson1999@gmail.com</Link>
+                    <Link href="/" className="text-[#00ffff] hover:text-[#00ff00] transition duration-150 ease-in-out">jjsonwilson1999@gmail.com</Link>
                   </li>
                   <li className="mb-1">
-                    {/* <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">How it Works</Link> */}
+                    {/* <Link href="/" className="text-white hover:text-[#00ff00] transition duration-150 ease-in-out">How it Works</Link> */}
                   </li>
                   {/* <li className="mb-1">
-                    <Link href="/" className="text-white hover:text-[#207938] transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link href="/" className="text-white hover:text-[#00ff00] transition duration-150 ease-in-out">Nostrud exercitation</Link>
                   </li> */}
                 </ul>
               </div>
@@ -109,7 +109,7 @@ const Footer = () => {
            
 
             {/* Copyrights note */}
-            <div className="text-[#74e291] font-Slackey font-semibold text-sm mr-4"> Copyrights &copy;2024 Reserved.</div>
+            <div className="text-[#00ff00] font-Slackey font-semibold text-sm mr-4"> Copyrights &copy;2024 Reserved.</div>
 
           </div>
 

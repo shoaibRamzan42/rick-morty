@@ -6,16 +6,16 @@
                 backdropFilter: "blur(2px)",
               }}
             >
-              <div className="flex font-Slackey text-[#74E291] items-center gap-3 flex-col justify-center">
+              <div className="flex font-Slackeytext-[#00ff00] items-center gap-3 flex-col justify-center">
                 
                 
-                  <h2 className="text-[24px] text-center text-[#74E291] [w-80%]  font-semibold">
+                  <h2 className="text-[24px] text-centertext-[#00ff00] [w-80%]  font-semibold">
                   Last chance to buy Rick-morty V2 before exchange listings
                   </h2>
 
                 
                 
-                  <h2 className="text-[24px] text-center [w-80%] text-[#74E291] font-semibold">
+                  <h2 className="text-[24px] text-center [w-80%]text-[#00ff00] font-semibold">
                   Last chance to buy Rick-morty V2 before exchange listings
                   </h2>
 
@@ -23,7 +23,7 @@
               </div>
 
               <div className="mt-[24px]">
-                <h2 className="text-center text-[16px] font-bold text-[#74E291]">
+                <h2 className="text-center text-[16px] font-boldtext-[#32CD32]">
                   BUY NOW BEFORE PRICE <br className="md:hidden" /> INCREASE!
                 </h2>
                 <div className="my-[24px] relative">
@@ -38,7 +38,7 @@
 
               <div className="mb-[24px] font-Slackey mt-[12px] h-[1px] w-full bg-[rgba(63,253,151,0.30)] " />
 
-              <h2 className="text-center font-Slackey text-[16px] font-bold text-[#74E291]">
+              <h2 className="text-center font-Slackey text-[16px] font-boldtext-[#32CD32]">
                 USDT RAISED{" "}
                 <span className="font-normal">= ${usdtRaised} / $250 ,000</span>
               </h2>
@@ -46,14 +46,14 @@
               <div className="flex my-[24px] font-Slackey items-center gap-[10px]">
                 <div className=" h-[1px] w-full bg-[rgba(63,253,151,0.30)]" />
 
-                <h2 className="text-center font-Slackey text-[16px] flex-shrink-0 font-bold text-[#74E291]">
+                <h2 className="text-center font-Slackey text-[16px] flex-shrink-0 font-boldtext-[#32CD32]">
                   1 RM <span className="font-normal">= $0.20</span>
                 </h2>
 
                 <div className=" h-[1px] w-full bg-[rgba(63,253,151,0.30)]" />
               </div>
 
-              <h2 className="text-center font-Slackey text-[16px] font-bold text-[#74E291] mt-[6px]">
+              <h2 className="text-center font-Slackey text-[16px] font-boldtext-[#00ff00] mt-[6px]">
                 YOUR PURCHASED RM <span className="font-normal">= 0</span>
               </h2>
 

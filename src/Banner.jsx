@@ -215,7 +215,7 @@ const Banner = () => {
             className=""
           >
           <button
-            className={`block bg-cover text-[#89CFF0] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 lg:py-8  md:py-5 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
+            className={`block bg-cover text-[#00FFFF] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 lg:py-8  md:py-5 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
           >
             How to buy 
           </button>
@@ -230,7 +230,7 @@ const Banner = () => {
             className=""
           >
           <button
-            className={`block text-[#89CFF0] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 md:py-5 lg:py-8 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
+            className={`block text-[#00ffff] capitalize animate hover:scale-105 duration-700  btn-bg font-Slackey font-semibold  sm:py-3 md:py-5 lg:py-8 px-4 rounded-[5px] text-[12px] md:text-[18px] lg:text-[28px] leading-3 lg:leading-4 `}
           >
             Whitepaper
           </button>

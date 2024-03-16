@@ -64,15 +64,15 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className={`fixed top-0 left-0 right-0 z-40 ${scrolled ? "bg-black" : "bg-transparent"}`}>
+            <div className={`fixed top-0 left-0 right-0 z-40 ${scrolled  ? "bg-black" : "bg-transparent"}`}>
                 <div className='flex items-center  md:gap-1 lg:gap-4 max-w-screen-xl mx-auto px-[20px] py-4 md:py-3'>
                     
-                    <h1 className= 'md:text-[20px] lg:text-[30px] font-Slackey text-[#74e291]'>Rick-Morty</h1>
+                    <h1 className= 'md:text-[20px] lg:text-[30px] font-Slackey text-[#00ff00]'>Rick-Morty</h1>
 
                         
                     
                     <div className='grow'>
-                        <div className='hidden scroll-smooth font-Slackey text-[#89CFF0] md:flex md:gap-3 lg:gap-9 justify-center'>
+                        <div className='hidden scroll-smooth font-Slackey text-[#00ffff] md:flex md:gap-3 lg:gap-9 justify-center'>
                             {links.map((item, i) => {
                                 let x = item
                                 if (x === 'Staking') {
@@ -86,19 +86,19 @@ const Navbar = () => {
                                 }
                                 return <a key={i}
                                     href={`#${x}`}
-                                    className='text-[#89CFF0 ]scroll-smooth capitalize text-[15px] lg:text-[20px] hover:underline underline-offset-8 hover:scale-105 duration-700 cursor-pointer font-medium'>
+                                    className='text-[#00ffff ]scroll-smooth capitalize text-[15px] lg:text-[20px] hover:underline underline-offset-8 hover:scale-105 duration-700 cursor-pointer font-medium'>
                                     {item}
                                 </a>
                             })}
                         </div>
                     </div>
                     <div className='hidden md:flex gap-4 relative '>
-                        <button className="rounded font-Slackey text-[#89CFF0] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
+                        <button className="rounded font-Slackey text-[#00ffff] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
                             <span className="relative">Connect Wallet
             </span>
                         </button>
-                        <button className="rounded font-Slackey text-[#89CFF0] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
+                        <button className="rounded font-Slackey text-[#00ffff] text-[15px] lg:text-[20px] relative overflow-hidden inline-flex group items-center justify-center px-3.5 py-1.5  cursor-pointer active:shadow-none shadow-lg btn-bg ">
                             <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
                             <span className="relative">Buy now
             </span>
