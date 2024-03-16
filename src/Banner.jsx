@@ -205,7 +205,7 @@ const Banner = () => {
 
   return (
     <div className="mt-12    bg-img1 bg-contain h-[300px] md:h-[500px] lg:h-[680px] xl:h-[848px] bg-no-repeat  py-16 px-3 lg:px-16 md:px-12 ">
-        <div className="flex flex-col  relative xl:top-[60%] lg:top-[45%] md:top-[60%] top-[55%]  left-[9%] xl:left-[13%] md:flex-row items-start  md:items-center md:gap-12 gap-4">
+        <div className="flex flex-col  relative xl:top-[60%] lg:top-[70%] top-[60%] md:top-[70%] left-[20%] lg:left-[12%]   md:left-[9%] xl:left-[13%] md:flex-row items-start  md:items-center md:gap-12 gap-4">
         <motion.div
             whileInView={{ scale: [0.7, 1], opacity: [0, 1] }}
             transition={{ duration: 1.5, ease: "easeInOut" }}
