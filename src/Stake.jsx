@@ -11,7 +11,7 @@ const Stake = () => {
         
         
           <img src={stake} className="md:max-w-[50%] max-w-full" alt="pic" />
-          <h1 className="text-[#00ff00] hidden justify-center w-[30%] md:flex items-center gb-stak bg-cover h-[140px] lg:h-[195px] xl:h-[255px] font-semibold text-[11px] lg:text-[16px] xl:text-[18px]">
+          <h1 className="text-[#32cd32] hidden justify-center w-[30%] md:flex items-center gb-stak bg-cover h-[140px] lg:h-[195px] xl:h-[255px] font-semibold text-[11px] lg:text-[16px] xl:text-[18px]">
             Did U miss 100X Pump??
           </h1>
          
@@ -63,7 +63,7 @@ const Stake = () => {
 
             <img
               className="bg-white h-20 lg:h-24 p-3 lg:p-4 rounded-full  border-[5px] border-[#00ffff] "
-              src="https://miro.medium.com/v2/resize:fit:1400/1*CzmHdmVSwWyCTXqzq61HjA.png"
+              src="https://miro.medium.com/ /resize:fit:1400/1*CzmHdmVSwWyCTXqzq61HjA.png"
               alt="pic"
             />
 

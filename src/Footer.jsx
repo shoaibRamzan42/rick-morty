@@ -17,9 +17,9 @@ const Footer = () => {
         <h1 className="text-[#00ff00] font-Slackey bg-shade bg-no-repeat bg-cover md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
         <h1 className="text-[#00ffff]  text-center font-custom text-[13px] md:text-[16px] leading-[22px] lg:leading-[30px] w-full md:w-[90%] lg:text-[20px]">
           {" "}
-          $Rick-morty V2 has no association with Nickelodeon or their creation
+          $Rick-morty   has no association with Nickelodeon or their creation
           Rick-mortyBob SquarePants. This token is simply paying homage to a meme we
-          all love and recognise. $Rick-mortyV2 is a meme coin with no intrinsic
+          all love and recognise. $Rick-morty  is a meme coin with no intrinsic
           value or expectation of financial return. There is no formal team. The
           Rick-morty ecosystem may offer P2E aspects, however the coin is intended
           for entertainment purposes only.

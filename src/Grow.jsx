@@ -7,7 +7,7 @@ const Grow = () => {
 
   return (
     <div className="bg-transparent pt-14 mt-[-3px]">
-    <h1 className="text-[#00ff00] font-Slackey text-center bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">What is RMC?</h1>
+    <h1 className="text-[#00ffff] font-Slackey text-center bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">What is RMC?</h1>
       <div className="max-w-[1160px] px-[16px] md:px-[20px] mx-auto py-[40px] sm:py-[80px] lg:py-[120px] flex flex-col md:flex-row gap-[32px] sm:gap-[60px] lg:gap-[120px] items-center">
         <div className="relative flex-shrink-0">
           <div className="relative z-10">
@@ -35,17 +35,17 @@ const Grow = () => {
             >
               <g filter="url(#filter0_f_250_7960)">
                 <path
-                  d="M87.5 280.5H91.9661C141.414 280.5 181.5 240.414 181.5 190.966V186.5H177.034C127.586 186.5 87.5 226.586 87.5 276.034V280.5Z"
+                  d="M87.5 280.5H91.9661C141.414 280.5 181.5 240.414 181.5 190.966V186.5H177.034C127.586 186.5 87.5 226.586 87.5 276.034 80.5Z"
                   stroke="#32CD32"
                   strokeWidth="5"
                 />
                 <path
-                  d="M181.5 280.5H177.034C127.586 280.5 87.5 240.414 87.5 190.966V186.5H91.9661C141.414 186.5 181.5 226.586 181.5 276.034V280.5Z"
+                  d="M181.5 280.5H177.034C127.586 280.5 87.5 240.414 87.5 190.966V186.5H91.9661C141.414 186.5 181.5 226.586 181.5 276.034 80.5Z"
                   stroke="#32CD32"
                   strokeWidth="5"
                 />
                 <path
-                  d="M186.5 280.5H190.966C240.414 280.5 280.5 240.414 280.5 190.966V186.5H276.034C226.586 186.5 186.5 226.586 186.5 276.034V280.5Z"
+                  d="M186.5 280.5H190.966C240.414 280.5 280.5 240.414 280.5 190.966V186.5H276.034C226.586 186.5 186.5 226.586 186.5 276.034 80.5Z"
                   stroke="#32CD32"
                   strokeWidth="5"
                 />

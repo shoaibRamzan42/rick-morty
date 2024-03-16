@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Tokenomics = () => {
   return (
     <div className='flex font-Slackey lg:px-16 md:px-12 px-3 py-16 gap-8 flex-col items-center'>
-     <h1 className="text-[#00ff00] bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">Tokenomics </h1>
+     <h1 className="text-[#00ffff] bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">Tokenomics </h1>
      <div className='lg:py-1 py-3 px-4 shadow-5xl bg-transparent rounded-2xl  border-[1px] border-[#00ffff] flex flex-col-reverse lg:flex-row items-center justify-center'>
         <div className='flex flex-col gap-2 w-full text-[14px] md:w-[60%] lg:w-[50%] md:text-[22px] font-custom justify-center'>
         <motion.div
@@ -17,13 +17,13 @@ const Tokenomics = () => {
             whileInView={{ x: 0, opacity: 1 }}
             className=""
           >
-        <h1 className='text-[#00ff00] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> Bridge Launch</h1>
-        <h1 className='text-[#00ff00] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> Stake V1 To Earn V2</h1>
-        <h1 className='text-[#00ff00] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/>  Presale</h1>
-        <h1 className='text-[#00ff00] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> No Taxes</h1>
-        <h1 className='text-[#00ff00]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> Big Marketing Budget</h1>
-        <h1 className='text-[#00ff00]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> Ample CEX Liquidity</h1>
-        <h1 className='text-[#00ff00]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FFFF]'/> Earn V2 Tokens In P2E Game</h1>
+        <h1 className='text-[#00ffff] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> Bridge Launch</h1>
+        <h1 className='text-[#00ffff] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> Stake V1 To Earn  </h1>
+        <h1 className='text-[#00ffff] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/>  Presale</h1>
+        <h1 className='text-[#00ffff] text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> No Taxes</h1>
+        <h1 className='text-[#00ffff]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> Big Marketing Budget</h1>
+        <h1 className='text-[#00ffff]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> Ample CEX Liquidity</h1>
+        <h1 className='text-[#00ffff]  text-[14px] md:text-[22px] font-semibold'><CheckIcon fontSize='large' className='text-[#00FF00]'/> Earn   Tokens In P2E Game</h1>
         </motion.div>
         </div>
         <div>
