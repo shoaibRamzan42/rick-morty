@@ -63,7 +63,7 @@ const Stake = () => {
 
             <img
               className="bg-white h-20 lg:h-24 p-3 lg:p-4 rounded-full  border-[5px] border-[#00ffff] "
-              src="https://miro.medium.com/ /resize:fit:1400/1*CzmHdmVSwWyCTXqzq61HjA.png"
+              src="https://miro.medium.com/v2/resize:fit:1400/1*CzmHdmVSwWyCTXqzq61HjA.png"
               alt="pic"
             />
 
