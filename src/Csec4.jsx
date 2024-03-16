@@ -37,7 +37,7 @@ const Csec4=()=>{
         <div className="">
             <div className="flex items-center gap-1">
             <DiamondIcon className=" text-[#00ffff]" />
-            <h1 className="uppercase font-semibold md:text-[20px] text-[18px]  text-[#32CD32]">2.Grab some SOL</h1>
+            <h1 className="uppercase font-semibold md:text-[20px] text-[18px]  text-[#00ff00]">2.Grab some SOL</h1>
             </div>
             <p className="md:text-[16px] text-[14px] w-full font-medium text-[#00ffff]">Purchasing SOL, sending it to your phantom address and swapping using Phantom's in-app wallet, or on a decentralised exchange like Jupiter</p>
         </div>
@@ -70,7 +70,7 @@ const Csec4=()=>{
         <div className="">
             <div className="flex items-center gap-1">
             <SwapHorizIcon  className=" text-[#00ffff]" />
-            <h1 className="uppercase font-semibold md:text-[20px] text-[18px]  text-[#32CD32]">
+            <h1 className="uppercase font-semibold md:text-[20px] text-[18px]  text-[#00ff00]">
 						4. Buy Rick and Morty 					</h1>
             </div>
             <p className="md:text-[16px] text-[14px] w-full font-medium text-[#00ffff]">You can purchase $RMC multichain using our integreated Rick-Morty swap, or swap using Jupiter if you already own some $SOL.</p>
