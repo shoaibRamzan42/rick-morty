@@ -4,7 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@media only screen and (min-width: 768px) {
+    .bg-img1{
+        background-image: url(/src/assets/12922-bg.png);
+    }
+    
+}
 .bg-head{
     background-image: url(/src/assets/bg-head.png);
 }
@@ -15,9 +20,6 @@
 
 .bg-imgs{
     background-image: url(/src/assets/1334910.jpg);
-}
-.bg-img1{
-    background-image: url(/src/assets/12922-bg.png);
 }
 
 .bg-text{
