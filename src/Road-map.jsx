@@ -8,7 +8,7 @@ import moon from "../src/assets/moon1.png"
 
 const RoadMap= () => {
   return (
-    <div id='road' className='flex  font-Slackey  md:px-12 px-3 pb-16 gap-8 flex-col justify-center items-center'>
+    <div id='road' className='flex -mt-0 lg:-mt-40 font-Slackey  md:px-12 px-3 pb-16 gap-8 flex-col justify-center items-center'>
     <motion.div
             initial={{ x: "-100%", opacity: 0 }}
             // viewport={{ once :true,}}

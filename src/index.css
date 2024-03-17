@@ -4,6 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @media only screen and (min-width: 768px) {
     .bg-img1{
         background-image: url(/src/assets/12922-bg.png);
