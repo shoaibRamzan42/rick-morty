@@ -29,7 +29,7 @@ const MobNav = ({ setisOpen }) => {
             <div className='fixed inset-0 bg-black px-[20px] py-[20px]'>
                 <div className='relative h-full'>
                     <div className='flex justify-between items-center'>
-                    <h1 className= 'md:text-[20px] lg:text-[30px] font-Slackey text-[#00ff00]'>Rick-Morty</h1>
+                    <h1 className= 'md:text-[20px] text-[28px] lg:text-[30px] font-Slackey text-[#00ff00]'>Rick-Morty</h1>
 
                         <XMarkIcon
                             onClick={() => setisOpen(false)} className='w-[35px] text-[#00ffff]'
