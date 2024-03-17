@@ -117,7 +117,7 @@ const Navbar = () => {
             </div>
             {isOpen && (
                 <div className='fixed inset-0 z-50 h-screen bg-black' >
-                    {/* <MobNav setisOpen={setisOpen} /> */}
+                    <MobNav setisOpen={setisOpen} />
                 </div>
             )}
         </div>

@@ -2,7 +2,7 @@ import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import { useState } from 'react'
 import logo from '../src/assets/Logo.png'
 import { motion } from 'framer-motion';
-
+import { textVariant } from './motions';
 
 const MobNav = ({ setisOpen }) => {
  const address = "" ;
@@ -29,10 +29,10 @@ const MobNav = ({ setisOpen }) => {
             <div className='fixed inset-0 bg-black px-[20px] py-[20px]'>
                 <div className='relative h-full'>
                     <div className='flex justify-between items-center'>
-                        <img src={logo} alt="logo" className='w-[110px]' />
+                    <h1 className= 'md:text-[20px] lg:text-[30px] font-Slackey text-[#00ff00]'>Rick-Morty</h1>
 
                         <XMarkIcon
-                            onClick={() => setisOpen(false)} className='w-[35px] text-white'
+                            onClick={() => setisOpen(false)} className='w-[35px] text-[#00ffff]'
                         />
                     </div>
                     <motion.div
@@ -55,7 +55,7 @@ const MobNav = ({ setisOpen }) => {
 
                                 return <motion.a
                                     variants={textVariant(0.2 * (i + 1))}
-                                    className={'text-[24px] font-bold capitalize text-center text-white list-none'}
+                                    className={'text-[24px] font-Slackey font-bold capitalize text-center text-[#00ffff] list-none'}
                                     viewport={{ once: true }}
                                     href={`#${x}`}
                                     onClick={() => setisOpen(false)}
@@ -80,12 +80,12 @@ const MobNav = ({ setisOpen }) => {
                             <div
                                 className='flex flex-col gap-[20px]'
                             >
-                                <button className='text-white btn-bg text-[14px] h-[51px] w-full font-medium rounded-[10px]'
+                                <button className='text-[#00ffff] font-Slackey text-[24px]   btn-bg h-[51px] w-full font-medium rounded-[10px]'
 
                                   
 
                                 >
-                                    {address ? extractFirstAndLastFive(address) : 'Connect Wallet'}
+                                    {address ? extractFirstAndLastFive(address) : 'Buy Now'}
                                 </button>
 
                             </div>
