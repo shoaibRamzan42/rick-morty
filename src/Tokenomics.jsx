@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const Tokenomics = () => {
   return (
     <div className='flex font-Slackey lg:px-16 md:px-12 px-3 pt-16 pb-0 gap-8 flex-col items-center'>
-     <h1 className="text-[#00ffff] bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">Tokenomics </h1>
+     <h1 className="text-[#00ffff]  font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">Tokenomics </h1>
      <div className='lg:py-1 py-3 px-4 shadow-5xl bg-transparent rounded-2xl  border-[1px] border-[#00ffff] flex flex-col-reverse lg:flex-row items-center justify-center'>
         <div className='flex flex-col gap-2 w-full text-[14px] md:w-[60%] lg:w-[50%] md:text-[22px] font-custom justify-center'>
         <motion.div

@@ -37,7 +37,7 @@ const Stake = () => {
         </div>
         </motion.div>
         <div className="pt-16 gap-8 flex flex-col item center justify-center">
-          <h1 className=" text-center bg-shade bg-no-repeat bg-cover text-[32px] md:text-[35px] text-[#00ff00] font-bold  lg:text-[45px]">
+          <h1 className=" text-center  text-[32px] md:text-[35px] text-[#00ff00] font-bold  lg:text-[45px]">
             V1 Listed and Featured in...
           </h1>
           <motion.div

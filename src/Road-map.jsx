@@ -17,8 +17,8 @@ const RoadMap= () => {
             className="lg:relative static left-[28%] lg:left-[30%] top-[140px] w-full lg:max-w-[50%] md:max-w-[70%]"
           >
     <img className='' src={moon} alt="pic" /></motion.div>
-        <h1 className="text-[#00ff00] bg-shade bg-no-repeat bg-cover  font-Bold  text-[40px] lg:text-[45px] ">RoadMap  </h1>
-        <p className='text-[#00ffff] bg-shade bg-no-repeat bg-cover leading-[26px] md:leading-[40px] md:text-[30px] lg:text-[36px] text-center font-medium font-custom'>The ultimate goal of $Rick-morty is to soak up liquidity from the competition!  We’re absorbing all the damp.</p>
+        <h1 className="text-[#00ff00]   font-Bold  text-[40px] lg:text-[45px] ">RoadMap  </h1>
+        <p className='text-[#00ffff]  leading-[26px] md:leading-[40px] md:text-[30px] lg:text-[36px] text-center font-medium font-custom'>The ultimate goal of $Rick-morty is to soak up liquidity from the competition!  We’re absorbing all the damp.</p>
         <div className="  flex flex-wrap  justify-center items-center gap-5">
           
 

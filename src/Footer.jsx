@@ -14,7 +14,7 @@ const Footer = () => {
             className=""
           >
       <div className="flex flex-col  gap-3  items-center px-4 py-3 bg-transparent shadow-5xl rounded-xl border-[2px] border-[#00ffff] justify-center">
-        <h1 className="text-[#00ff00] font-Slackey bg-shade bg-no-repeat bg-cover md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
+        <h1 className="text-[#00ff00] font-Slackey  md:text-[35px] text-[30px] lg:text-[45px]"> DISCLAIMER</h1>
         <h1 className="text-[#00ffff]  text-center font-custom text-[13px] md:text-[16px] leading-[22px] lg:leading-[30px] w-full md:w-[90%] lg:text-[20px]">
           {" "}
           $Rick-morty   has no association with Nickelodeon or their creation

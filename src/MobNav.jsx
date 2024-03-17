@@ -15,9 +15,9 @@ const MobNav = ({ setisOpen }) => {
       }
     const links = [
         
-        'How to invest',
-        'token',
-        'How to Buy GGE'
+        'Staking',
+        'About',
+        'RoadMap'
     ]
 
     let isConnect = false
@@ -46,13 +46,15 @@ const MobNav = ({ setisOpen }) => {
 
 
                                 let x = item
-                                if (x === 'How to invest') {
-                                    x = 'invest'
-                                }
-                                if (x === 'How to Buy GGE') {
+                                if (x === 'Staking') {
                                     x = 'buy'
                                 }
-
+                                if (x === 'About') {
+                                    x = 'about'
+                                }
+                                if (x === 'RoadMap') {
+                                    x = 'road'
+                                }
                                 return <motion.a
                                     variants={textVariant(0.2 * (i + 1))}
                                     className={'text-[24px] font-Slackey font-bold capitalize text-center text-[#00ffff] list-none'}

@@ -7,7 +7,7 @@ const Grow = () => {
 
   return (
     <div className="bg-transparent pt-14 mt-[-3px]">
-    <h1 className="text-[#00ffff] font-Slackey text-center bg-shade bg-no-repeat bg-cover font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">What is RMC?</h1>
+    <h1 className="text-[#00ffff] font-Slackey text-center  font-Bold text-[30px] md:text-[35px] lg:text-[45px] ">What is RMC?</h1>
       <div className="max-w-[1160px] px-[16px] md:px-[20px] mx-auto py-[40px] sm:py-[80px] lg:py-[120px] flex flex-col md:flex-row gap-[32px] sm:gap-[60px] lg:gap-[120px] items-center">
         <div className="relative flex-shrink-0">
           <div className="relative z-10">
@@ -100,7 +100,7 @@ const Grow = () => {
           >
         <div className="border shadow-5xl px-4 py-5 rounded-xl br-green">
           <h6
-            className={`text-[#00ffff] font-Slackey mb-2 bg-shade bg-no-repeat bg-cover md:text-[18px] sm:text-[28px] font-semibold ${
+            className={`text-[#00ffff] font-Slackey mb-2  md:text-[18px] sm:text-[28px] font-semibold ${
               smallerthen768 && "text-center "
             }`}
           >

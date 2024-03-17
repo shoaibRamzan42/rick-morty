@@ -16,7 +16,7 @@ const Banner = () => {
     <div className="md:mt-8  mt-12 bg-none flex flex-col md:block items-center justify-center  bg-img1 bg-contain  md:h-[500px] lg:h-[680px] xl:h-[848px] bg-no-repeat  py-16 px-3 lg:px-16 md:px-12 ">
        
         <img src={head1} className="md:hidden max-w-[110%] " alt="pic" />
-        <img src={head2} className="md:hidden max-w-[80%]" alt="pic" />
+        <img src={head2} className="md:hidden max-w-[95%]" alt="pic" />
        
         <div className="flex flex-col   md:relative xl:top-[60%] lg:top-[70%]  md:top-[70%] l lg:left-[12%]   md:left-[9%] xl:left-[13%] md:flex-row justify-center md:justify-start   items-center md:gap-12 gap-4">
         <motion.div
